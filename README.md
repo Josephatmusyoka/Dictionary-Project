@@ -18,39 +18,3 @@ This project is a Python program that allows users to search for the definitions
 Run the program:
 python dictionary.py
 Input a word to search for its definition.
-File Structure
-dictionary_project/
-│
-├── dictionary.json        # JSON file containing word definitions
-├── dictionary.py          # Main Python script
-└── README.md              # Documentation
-Example Usage
-Input:
-Enter a word: rain
-Output:
-Water that falls from the sky.
-Input:
-Enter a word: pott
-Output:
-Did you mean 'pot'? Definition: A container used for cooking or storing food.
-Extending the Dictionary
-To add more words to the dictionary, simply modify the dictionary.json file. Add new entries in the following format:
-
-{
-    "new_word": "Definition of the new word"
-}
-For example:
-{
-    "python": "A high-level programming language used for general-purpose programming.",
-    "ocean": "A large body of saltwater that covers most of Earth's surface."
-}
-Dependencies
-Python 3.x
-JSON data file (dictionary.json)
-License
-This project is open-source. Feel free to modify and use it for educational purposes.
-
-### Next Steps:
-1. **Open the `README.md` file**:
-   ```bash
-   nano README.md
